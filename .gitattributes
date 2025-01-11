@@ -5,7 +5,7 @@
 
 
 # Ignore HTML files in language statistics
-*.jypg linguist-generated=true
+*.ipynb linguist-generated=true
 
 
 
