@@ -1,2 +1,18 @@
-# Auto detect text files and perform LF normalization
+
+# Set default behavior to automatically normalize line endings
 * text=auto
+
+
+
+# Ignore HTML files in language statistics
+*.jypg linguist-generated=true
+
+
+
+
+
+# Force Python and JavaScript as the primary languages
+*.py linguist-language=Python
+*.js linguist-language=JavaScript
+
+*.py merge=union
