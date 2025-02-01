@@ -73,11 +73,5 @@ merged_df = covid_df.merge(location_df, on="location")
 merged_df.to_csv('merged.csv', index=0)
 
 # Importing the sqlalchemy to perform sql operations
-from sqlachemy import create_engine
 
-# Create a database connection (using SQLite for this example)
-engine = create_engine('sqlite://mydatabase')
-
-# Saving the merged DataFrame to a SQL database
-merged_df.to_sql('merged', con=engine, if_exists='replace', index=False)
 
